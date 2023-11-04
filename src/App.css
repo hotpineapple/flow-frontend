@@ -1,0 +1,41 @@
+.wrapper {
+  width: 80%;
+  margin: 10px auto;
+}
+.customExtensionBox {
+  padding: 5px;
+  border-style: solid;
+  border-color: #ccc;
+  border-radius: 5px;
+  width:400px;
+  height:300px;
+}
+.customExtensionCntBox {
+  margin-bottom: 10px;
+  font-size: small;
+}
+.customExtension{
+  display: inline-block;
+  padding: 0 6px;
+  border-style: solid;
+  border-color: #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.customExtensionDeleteBtn {
+  border: 0;
+  background-color: transparent;
+  font-weight: bold;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.inputNselectBox {
+  width: 400px;
+  margin-bottom: 5px;
+}
+
+.sortBox {
+  float: right;
+}
