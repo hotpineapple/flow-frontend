@@ -7,7 +7,7 @@ function App() {
   const [ keyword, setKeyword ] = useState('');
   const [ sortBy, setSortBy ] = useState('added_at');
   const [ sortOrder, setSortOrder ] = useState('asc');
-  const baseUrl = process.env.SERVER_URL;
+  const baseUrl = process.env.REACT_APP_SERVER_URL;
   const totalCustomExtensionCnt = 200;
   
   useEffect(()=>{

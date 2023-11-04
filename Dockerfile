@@ -1,6 +1,5 @@
 FROM node
 
-ARG REACT_APP_RESTAPI_SERVER_URL
 ARG REACT_APP_SERVER_URL
 
 WORKDIR /app
@@ -9,7 +8,7 @@ COPY package.json .
 
 RUN npm install
 
-RUN echo "SERVER_URL=$SERVER_URL" > .env
+RUN echo "REACT_APP_SERVER_URL=$REACT_APP_SERVER_URL" >> .env
 
 COPY . . 
 
